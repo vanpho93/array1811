@@ -4,4 +4,5 @@ const arrPerson = [
     { name: 'Tun', age: 11, height: 70 },
 ];
 
-console.log(arrPerson);
+// console.log(arrPerson);
+arrPerson.forEach(x => console.log(x.name));
